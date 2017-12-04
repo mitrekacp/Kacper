@@ -1,6 +1,6 @@
 // sortowanie szybkie (quicksort)
 // www.algorytm.org
- 
+ Witaj 
 #include<iostream> tu Kris
 using namespace std;
  
