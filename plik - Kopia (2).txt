@@ -1,7 +1,7 @@
 // sortowanie szybkie (quicksort)
 // www.algorytm.org
  
-#include<iostream>
+#include<iostream> tu Kris
 using namespace std;
  
 int partition(int tablica[], int p, int r) // dzielimy tablice na dwie czesci, w pierwszej wszystkie liczby sa mniejsze badz rowne x, w drugiej wieksze lub rowne od x
