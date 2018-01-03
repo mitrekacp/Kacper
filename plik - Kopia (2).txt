@@ -4,10 +4,7 @@
 #include<iostream> tu Kris
 using namespace std;
  
-int partition(int tablica[], int p, int r) // dzielimy tablice na dwie czesci, w pierwszej wszystkie liczby sa mniejsze badz rowne x, w drugiej wieksze lub rowne od x
-{
-int x = tablica[p]; // obieramy x
-int i = p, j = r, w; // i, j - indeksy w tabeli
+int partition(int tablica[], int p, int r) // dzielimy tablice na dwie czesci, w pierwszej wszystkie liczby sa mniejsze badz rowne x, w drugiejf indeksy w tabeli
 while (true) // petla nieskonczona - wychodzimy z niej tylko przez return j
 {
 while (tablica[j] > x) // dopoki elementy sa wieksze od x
